@@ -1,0 +1,130 @@
+
+body{
+    background-color: #191d28;
+
+   
+}
+
+.nabh{
+    color: aqua;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.btna{
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 500;
+    width: 85px;
+    background-color: #2e3241;
+    color: #fff;
+}
+.pointer{
+    color: #6c757d;
+    font-size: 12px;
+}
+img{
+    width: 15px;
+    height: 15px;
+}
+.text-center{
+text-align: center!important;
+}
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    
+    border-collapse: separate;
+    border-spacing: 0 1em;
+
+}
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.align-middle{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    vertical-align: middle!important;
+
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+td h4 {
+    font-family: Oswald;
+    font-size: 30px;
+    margin: 0;
+    opacity: 1;
+}
+tbody td:first-child{
+    border-radius: 10px 0 0 10px;
+}
+tbody tr{
+background-color: #2e3241;
+
+
+}
+td{
+    padding: 6px 3px!important;
+    white-space: nowrap;
+}
+.newp{
+    color: white;
+}
+.theme-dark {
+    position: relative;
+    background: #191d28;
+    min-height: 100vh;
+    color: #fff;
+    font-family: Oswald,sans-serif;
+}
+.btn-group{
+position: relative;
+display: inline-flex;
+vertical-align: middle;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+
+.dropdown-item {
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
